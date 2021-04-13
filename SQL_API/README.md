@@ -2,10 +2,10 @@
 
 * Prerequisites
 
- * Azure subscription
- * Azure Cosmo db Account
- * Azure Blob Storage
- * Azure Data factory
+  * Azure subscription
+  * Azure Cosmo db Account
+  * Azure Blob Storage
+  * Azure Data factory
 
 * create store procedure into cosmodb
 
