@@ -8,3 +8,5 @@
 *.env
 # ignore .csv# file
 *.csv#
+# ignore .vscode
+*.vscode
