@@ -1,11 +1,11 @@
+# CosmoDB SQL API 
+
 * Prerequisites
 
  * Azure subscription
  * Azure Cosmo db Account
  * Azure Blob Storage
  * Azure Data factory
-
-# CosmoDB SQL API 
 
 * create store procedure into cosmodb
 
