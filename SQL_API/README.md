@@ -1,4 +1,5 @@
-*Prerequisites
+* Prerequisites
+
  * Azure subscription
  * Azure Cosmo db Account
  * Azure Blob Storage
