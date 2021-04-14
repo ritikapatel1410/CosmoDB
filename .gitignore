@@ -4,5 +4,9 @@
 *.log
 #ignore __init__.py
 *__init__.py
-# ignore .env walk
+#ignore .env file
 *.env
+# ignore .csv# file
+*.csv#
+# ignore .vscode
+*.vscode
