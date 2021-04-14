@@ -89,10 +89,65 @@
       * In the azure blob storage blade, locate and select the cointainer and output folder.
       * In this you will see export json file.
 
+* Create a function in Azure with Python using Visual Studio Code
+  * Configure your environment
+    * Before you get started, make sure you have the following requirements in place:
+      * An Azure account with an active subscription. Create an account for free.
+      * The Azure Functions Core Tools version 3.x.
+      * Python versions that are supported by Azure Functions
+      * Visual Studio Code on one of the supported platforms.
+      * The Python extension for Visual Studio Code.
+      * The Azure Functions extension for Visual Studio Code.
+  * Create your local project
+    * Choose the Azure icon in the Activity bar, then in the Azure: Functions area, select the Create new project... icon.
+    * Choose a directory location for your project workspace and choose Select.
+    * Provide the following information at the prompts:
+    * Select a language for your function project: Choose Python.
+    * Select a Python alias to create a virtual environment: Choose the location of your Python interpreter.If the location isn't shown, type in the full path to your Python binary.
+    * Select a template for your project's first function: Choose Azure Cosmo DB  trigger.
+    * Provide a function name: Type CosmoDBTrigger.
+    * select Create new local app setting
+    * select a database account
+    * type name of the Cosmo DB database that includes the collection to be monitored
+    * type name of collection to be monitored
+    * type name of the collection to store the leases then select true
+    * select open in new window
+  * Run the function locally
+    * To call your function, press F5 to start the function app project. Output from Core Tools is displayed in the Terminal panel. Your app starts in the Terminal panel. You can see the URL endpoint of your CosmoDBTrigger function running locally
+    * With Core Tools running, go to the Azure: Functions area. Under Functions, expand Local Project > Functions. Right-click (Windows) or Ctrl - click (macOS) the CosmoDBTrigger function and choose Execute Function Now.
+    * In Enter request body you see the request message body value of { "name": "Azure" }. Press Enter to send this request message to your function.
+* Sign in to Azure
+* Publish the project to Azure
+  * Choose the Azure icon in the Activity bar, then in the Azure: Functions area, choose the Deploy to function app... button.
+  * Provide the following information at the prompts:
+    * Select folder: Choose a folder from your workspace or browse to one that contains your function app.You won't see this if you already have a valid function app opened.
+    * Select subscription: Choose the subscription to use.You won't see this if you only have one subscription.
+    * Select Function App in Azure: Choose + Create new Function App.
+    * Enter a globally unique name for the function app: Type a name that is valid in a URL path. The name you type is validated to make sure that it's unique in Azure Functions.
+    * Select a runtime: Choose the version of Python you've been running on locally. You can use the python --version command to check your version.
+    * Select a location for new resources: For better performance, choose a region near you.
+    * The extension shows the status of individual resources as they are being created in Azure in the notification area.
+* When completed, the following Azure resources are created in your subscription, using names based on your function app name:
+  * A resource group, which is a logical container for related resources.
+  * A standard Azure Storage account, which maintains state and other information about your projects.
+  * A consumption plan, which defines the underlying host for your serverless function app.
+  * A function app, which provides the environment for executing your function code. A function app lets you group functions as a logical unit for easier management, deployment, and sharing of resources within the same hosting plan.
+  * An Application Insights instance connected to the function app, which tracks usage of your serverless function
+* Select View Output in this notification to view the creation and deployment results, including the Azure resources that you created. If you miss the notification, select the bell icon in the lower right corner to see it again.
+* Run the function in Azure
+  * Back in the Azure: Functions area in the side bar, expand your subscription, your new function app, and Functions. Right-click (Windows) or Ctrl - click (macOS) the CosmoDBTrigger function and choose Execute Function Now.... 
+  * In Enter request body you see the request message body value of { "name": "Azure" }. Press Enter to send this request message to your function
+  * When the function executes in Azure and returns a response, a notification is raised in Visual Studio Code.
+
+
+
+
+
 Reference:
 
 * https://docs.microsoft.com/en-us/cli/azure/cosmosdb/sql/user-defined-function?view=azure-cli-latest
 * https://docs.microsoft.com/en-us/azure/cosmos-db/how-to-write-stored-procedures-triggers-udfs
 * https://cosmosdb.github.io/labs/dotnet/labs/02-load_data_with_adf.html
 * https://docs.microsoft.com/en-us/azure/data-factory/quickstart-create-data-factory-copy-data-tool
-  
+* https://docs.microsoft.com/en-us/azure/azure-functions/create-first-function-vs-code-python
+
