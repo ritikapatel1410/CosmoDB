@@ -1,0 +1,128 @@
+[
+              {
+                     "first_name": "vijay",
+                     "last_name": "patidar",
+                     "address": "kalyani nagar",
+                     "city": "Dewas",
+                     "state": "M.P.",
+                     "zip": "454663",
+                     "phone_number": "07295-290295"
+              },
+              {
+                     "first_name": "ranjana",
+                     "last_name": "dasai",
+                     "address": "hatpipliya",
+                     "city": "dewas",
+                     "state": "m.p.",
+                     "zip": "454663",
+                     "phone_number": "07985-290295"
+              },
+              {
+                     "first_name": "gorav",
+                     "last_name": "sharma",
+                     "address": "sion Circle",
+                     "city": "mumbai",
+                     "state": "maharastra",
+                     "zip": "404663",
+                     "phone_number": "07595-218295"
+              },
+              {
+                     "first_name": "ritika",
+                     "last_name": "yadav",
+                     "address": "bhilai",
+                     "city": "raipur",
+                     "state": "chatishgarh",
+                     "zip": "400665",
+                     "phone_number": "07200-290205"
+              },
+              {
+                     "first_name": "vijay",
+                     "last_name": "patidar",
+                     "address": "bagli",
+                     "city": "dewas",
+                     "state": "M.P.",
+                     "zip": "454663",
+                     "phone_number": "07295-290295"
+              },
+              {
+                     "first_name": "ranjana",
+                     "last_name": "dasai",
+                     "address": "hatpipliya",
+                     "city": "dewas",
+                     "state": "m.p",
+                     "zip": "454663",
+                     "phone_number": "07985-290295"
+              },
+              {
+                     "first_name": "gorav",
+                     "last_name": "sharma",
+                     "address": "sion Circle",
+                     "city": "mumbai",
+                     "state": "maharastra",
+                     "zip": "404663",
+                     "phone_number": "07595-218295"
+              },
+              {
+                     "first_name": "dipali",
+                     "last_name": "verma",
+                     "address": "kamla nagar",
+                     "city": "dehli",
+                     "state": "dehli",
+                     "zip": "456111",
+                     "phone_number": "987651234"
+              },
+              {
+                     "first_name": "gopal",
+                     "last_name": "patel",
+                     "address": "bilpank",
+                     "city": "ratlam",
+                     "state": "m.p.",
+                     "zip": "424663",
+                     "phone_number": "9800454334"
+              },
+              {
+                     "first_name": "/usr/bin/python3.8 /home/patidar/Downloads/addressbook/test/test_AddressBook.py",
+                     "last_name": "patel",
+                     "address": "vijay nagar",
+                     "city": "indore",
+                     "state": "m.p.",
+                     "zip": "454665",
+                     "phone_number": "9802346541"
+              },
+              {
+                     "first_name": "mahima",
+                     "last_name": "rashtogi",
+                     "address": "rajiv gandhi nagar",
+                     "city": "kota",
+                     "state": "rajasthan",
+                     "zip": "454422",
+                     "phone_number": "985431261"
+              },
+              {
+                     "first_name": "divya",
+                     "last_name": "chaturvedi",
+                     "address": "aashirwad calony",
+                     "city": "vidisha",
+                     "state": "m.p.",
+                     "zip": "564321",
+                     "phone_number": "9871235423"
+              },
+              {
+                     "first_name": "madhuri",
+                     "last_name": "sharma",
+                     "address": "rajendra nagar",
+                     "city": "indore",
+                     "state": "m.p.",
+                     "zip": "440321",
+                     "phone_number": "9812356711"
+              },
+              {
+                     "first_name": "ritu",
+                     "last_name": "patel",
+                     "address": "sanghvi nagar",
+                     "city": "vidisha",
+                     "state": "m.p.",
+                     "zip": "450044",
+                     "phone_number": "9002306541"
+              }
+       ]
