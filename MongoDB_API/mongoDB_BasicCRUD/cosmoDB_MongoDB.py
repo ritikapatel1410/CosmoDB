@@ -34,7 +34,7 @@ class mongoDB:
                 None
         """
         try:
-            with open('/home/patidar/Desktop/AddressBook.json') as file:
+            with open('AddressBook.json') as file:
                 file_data = json.load(file)
             if isinstance(file_data, list):
                 insert_value=self.collection.insert_many(file_data)  
